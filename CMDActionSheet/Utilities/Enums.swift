@@ -22,3 +22,15 @@ public enum PresentationStyle {
     case alert(title: String?, action: String?, height: Double?)
     case actionSheet(title: String?, action: String?, height: Double?)
 }
+
+public enum CellType {
+    
+    case basic          // default
+    case customNib(nibName: String, cellIdentifier: String)
+    case customClass(type: AnyClass, cellIdentifier: String)
+    
+    /// Get Value
+    func value() -> String {
+        return "basic"
+    }
+}

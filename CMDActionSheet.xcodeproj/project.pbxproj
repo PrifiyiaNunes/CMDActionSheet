@@ -20,6 +20,7 @@
 		3D30069D282BB24F00CAC21F /* CMDTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30069A282BB24F00CAC21F /* CMDTableViewDelegate.swift */; };
 		3D3006A0282BB29200CAC21F /* CustomMultiDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30069F282BB29200CAC21F /* CustomMultiDropdown.swift */; };
 		3D3006A4282BB2E700CAC21F /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3006A3282BB2E700CAC21F /* Enums.swift */; };
+		3D3006AF282BCE3300CAC21F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3006AE282BCE3300CAC21F /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		3D30069A282BB24F00CAC21F /* CMDTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMDTableViewDelegate.swift; sourceTree = "<group>"; };
 		3D30069F282BB29200CAC21F /* CustomMultiDropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMultiDropdown.swift; sourceTree = "<group>"; };
 		3D3006A3282BB2E700CAC21F /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		3D3006AE282BCE3300CAC21F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,7 @@
 				3D30068A282BB16300CAC21F /* Controller */,
 				3D300689282BB15C00CAC21F /* View */,
 				3D30068D282BB17C00CAC21F /* Resource */,
-				3D30068E282BB19B00CAC21F /* InfoPlist */,
+				3D300682282B9DE500CAC21F /* Info.plist */,
 				3D30068F282BB1A900CAC21F /* CoreData */,
 			);
 			path = CMDActionSheet;
@@ -114,14 +116,6 @@
 				3D30067D282B9DE500CAC21F /* Assets.xcassets */,
 			);
 			path = Resource;
-			sourceTree = "<group>";
-		};
-		3D30068E282BB19B00CAC21F /* InfoPlist */ = {
-			isa = PBXGroup;
-			children = (
-				3D300682282B9DE500CAC21F /* Info.plist */,
-			);
-			path = InfoPlist;
 			sourceTree = "<group>";
 		};
 		3D30068F282BB1A900CAC21F /* CoreData */ = {
@@ -164,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				3D3006A3282BB2E700CAC21F /* Enums.swift */,
+				3D3006AE282BCE3300CAC21F /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -247,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D300676282B9DE300CAC21F /* ViewController.swift in Sources */,
+				3D3006AF282BCE3300CAC21F /* Constants.swift in Sources */,
 				3D300672282B9DE200CAC21F /* AppDelegate.swift in Sources */,
 				3D3006A4282BB2E700CAC21F /* Enums.swift in Sources */,
 				3D30069B282BB24F00CAC21F /* CMDTableView.swift in Sources */,
